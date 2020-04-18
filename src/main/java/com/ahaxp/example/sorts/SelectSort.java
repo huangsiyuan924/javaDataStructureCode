@@ -4,8 +4,17 @@ import java.util.Arrays;
 
 public class SelectSort {
     public static void main(String[] args) {
-        int[] arr = {99, 22, 33, 11, 44, 88, 77, 66};
+        /**
+         * 选择排序:
+         * 时间复杂度: O(n²)
+         * 空间复杂度O: (1)
+         * 稳定排序
+         * 原理:
+         *      循环n轮, 每轮找出一个最大/最小位置索引, 找到后将第i个位置的值跟最大/最小索引位置的值互换
+         *      前i个元素都是排好序的
+         */
 
+        int[] arr = {99, 22, 33, 11, 44, 88, 77, 66};
         int minIndex;
         for (int i = 0; i < arr.length; i++) {
             minIndex = i;
