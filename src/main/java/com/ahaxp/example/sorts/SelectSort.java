@@ -13,7 +13,6 @@ public class SelectSort {
          *      循环n轮, 每轮找出一个最大/最小位置索引, 找到后将第i个位置的值跟最大/最小索引位置的值互换
          *      前i个元素都是排好序的
          */
-
         int[] arr = {99, 22, 33, 11, 44, 88, 77, 66};
         int minIndex;
         for (int i = 0; i < arr.length; i++) {
