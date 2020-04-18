@@ -2,7 +2,7 @@ package com.ahaxp.example.sorts;
 
 import java.util.Arrays;
 
-public class Bubble {
+public class BubbleSort {
     public static void main(String[] args) {
         // 冒泡排序: 时间复杂度 O(n²), 稳定排序
         int[] arr = {99, 22, 33, 11, 44, 88, 77, 66};
